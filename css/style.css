@@ -1,0 +1,366 @@
+
+
+#container{
+    margin: 0 auto;
+    max-width: 860px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#content{
+    background-color: rgb(233, 231, 231);
+}
+
+#profile{
+    background-color: #232946;
+    background-image: url(../images/header-shadow.png);
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+li{
+    list-style: none;
+}
+
+#logo{
+    margin-left: 10px;
+}
+#logo h2{
+    font-weight: 700;
+    color: #fff;
+}
+
+#logo h4{
+    color: #555;
+    line-height: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: 7px;
+}
+
+.about{
+    float: left;
+    margin-top: 30px;
+    max-width: 440px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.about .photo-inner{
+    float: left;
+    background: url(../images/photo-inner.png) no-repeat;
+    width: 214px;
+    height: 214px;
+    padding: 12px 0px 0px 19px;
+}
+
+.about h1{
+    font-weight: 900;
+    color: #fff;
+    line-height: 34px;
+    margin-top: 8px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+.about h3{
+    margin-top: 5px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 18px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+
+.about span{
+    font-size: 18px;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.about li{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: circle;
+}
+
+.photo-inner ul li img {
+    object-fit: cover;
+    width: 165px;
+    height: 185px;
+}
+
+.personal-info{
+    float: left;
+    margin-top: 30px;
+    width: 310px;
+    min-height: 230px;
+    margin-left: 10px;
+    background: url(../images/personal-info-sep.png) no-repeat left top;
+    padding: 20px 10px 19px 15px;
+}
+
+.personal-info li{
+    line-height: 12px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    float: left;
+    width: 310px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.personal-info li label{
+    float: left;
+    padding: 4px 7px;
+    font-weight: 550;
+    border-radius: 3px;
+}
+.personal-info li  i{
+    margin-right: 10px;
+}
+
+.personal-info li span{
+    float: right;
+    width: 230px;
+    padding-top: 4px;
+    font-weight: 400;
+}
+
+header{
+    position: relative;
+    overflow: visible;
+}
+
+.text-bold{
+    font-weight: 600;
+}
+.menu{
+    height: 100px;
+    background-color: #ededed;
+    position: relative;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.tabs{
+    height: 116px;
+    position: absolute;
+    margin-top: -14px;
+    z-index: 100;
+}
+
+.tabs li{
+    float: left;
+    height: 116px;
+}
+
+.tabs li > a{
+    padding-top: 28px;
+    width: 115px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    color: #b9b9b9;
+    text-align: center;
+    font-weight: 580;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 35px;
+    text-decoration: none;
+    
+}
+
+.tabs li.active{
+    background: url(../images/tab-hover.png) no-repeat;
+    
+}
+
+.tabs li.active a{
+    color: #cf455c;
+}
+
+.tab-profile.active i{
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+
+    40%{
+        transform: translateY(-0px);
+    }
+    60%{
+        transform: translateY(-10px);
+    }
+}
+
+.tabs li > a > i{
+    font-size: 45px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#portfolio {
+    padding: 15px;
+}
+
+.animation-area{
+    position: relative;
+    width: 100%;
+    height: 160vh;
+    background-image: linear-gradient(to top right, rgb(27, 41, 194), rgba(31, 55, 193, 1), rgba(34, 70, 191, 0.99), rgba(38, 84, 190, 0.99), rgba(41, 98, 189, 0.99), rgba(45, 113, 187, 0.99), rgba(48, 127, 186, 0.98), rgba(52, 142, 184, 0.98), rgba(55, 156, 183, 0.98), rgba(59, 170, 182, 0.98), rgba(62, 185, 180, 0.97), rgba(66, 199, 179, 0.97));
+}
+
+.box-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box-area li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: rgba(255,255,255,0.2);
+    animation: animate 20s linear infinite;
+    bottom: -150px;
+}
+
+.box-area li:nth-child(1){
+    left: 86%;
+    width: 80px;
+    height: 80px;
+    animation-delay: s;
+}
+
+.box-area li:nth-child(2){
+    left: 12%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 1.5s;
+    animation-duration: 5.5s;
+}
+
+.box-area li:nth-child(3){
+    left: 70%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 10s;
+}
+
+.box-area li:nth-child(4){
+    left: 60%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+}
+
+.box-area li:nth-child(5){
+    left: 45%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+}
+
+.box-area li:nth-child(6){
+    left: 20%;
+    width: 120px;
+    height: 120px;
+    animation-delay: 3.5s;
+}
+
+.box-area li:nth-child(7){
+    left: 50%;
+    width: 190px;
+    height: 120px;
+    animation-delay: 12.5s;
+}
+
+.box-area li:nth-child(8){
+    left: 45%;
+    width: 70px;
+    height: 80px;
+    animation-delay: 6.5s;
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-900px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.portfolio__inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.portfolio-box {
+    width: 250px;
+    height: 200px;
+}
+
+.portfolio-box a img{
+    width: 250px;
+    height: 200px;
+}
+
+.portfolio-box a{
+    display: block;
+}
+
+.portfolio-item{
+    margin-right: 15px;
+    margin-bottom: 50px;
+    
+}
+
+.portfolio-item:hover{
+    box-shadow: 0px 5px 15px 5px rgba(61, 61, 61, 0.2);
+}
+
+.portfolio-box  a:hover {
+    color: #cf455c;
+}
+
+.copyright{
+    color: #fff;
+}
