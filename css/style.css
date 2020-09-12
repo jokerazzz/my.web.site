@@ -37,15 +37,15 @@ li{
     list-style: none;
 }
 
-#logo{
+.logo{
     margin-left: 10px;
 }
-#logo h2{
+.logo h2{
     font-weight: 700;
     color: #fff;
 }
 
-#logo h4{
+.logo h4{
     color: #555;
     line-height: 20px;
     font-family: 'Oswald', sans-serif;
@@ -141,6 +141,7 @@ li{
 }
 .personal-info li  i{
     margin-right: 10px;
+    font-size: 17px;
 }
 
 .personal-info li span{
@@ -148,6 +149,13 @@ li{
     width: 230px;
     padding-top: 4px;
     font-weight: 400;
+}
+
+.word-wrap{
+    display: inline-block;
+    padding-top: 4px;
+    cursor: pointer;
+    color: #fff;
 }
 
 header{
@@ -233,7 +241,7 @@ header{
 .animation-area{
     position: relative;
     width: 100%;
-    height: 160vh;
+    min-height: 100vh;
     background-image: linear-gradient(to top right, rgb(27, 41, 194), rgba(31, 55, 193, 1), rgba(34, 70, 191, 0.99), rgba(38, 84, 190, 0.99), rgba(41, 98, 189, 0.99), rgba(45, 113, 187, 0.99), rgba(48, 127, 186, 0.98), rgba(52, 142, 184, 0.98), rgba(55, 156, 183, 0.98), rgba(59, 170, 182, 0.98), rgba(62, 185, 180, 0.97), rgba(66, 199, 179, 0.97));
 }
 
@@ -285,7 +293,7 @@ header{
     width: 100px;
     height: 100px;
     animation-delay: 0s;
-    animation-duration: 15s;
+    animation-duration: 6s;
 }
 
 .box-area li:nth-child(5){
@@ -361,6 +369,3 @@ header{
     color: #cf455c;
 }
 
-.copyright{
-    color: #fff;
-}
